@@ -4,12 +4,7 @@
 # MIT License
 INSTALL_DIR=$PWD
 sudo apt-get update
-sudo apt-get install libusb-1.0-0-dev pkg-config -y
-sudo apt-get install libglfw3-dev -y
-sudo apt-get install qtcreator -y
-sudo apt-get install cmake-curses-gui -y
-sudo apt-get install -y qdbus qmlscene qt5-default qt5-qmake qtbase5-dev-tools qtchooser qtdeclarative5-dev xbitmaps xterm libqt5svg5-dev qttools5-dev qtscript5-dev qtdeclarative5-folderlistmodel-plugin qtdeclarative5-controls-plugin
-sudo apt-get install -y libgtk-3-dev libudev-dev
+sudo apt-get install -y libusb-1.0-0-dev pkg-config libglfw3-dev qtcreator cmake-curses-gui qdbus qmlscene qt5-default qt5-qmake qtbase5-dev-tools qtchooser qtdeclarative5-dev xbitmaps xterm libqt5svg5-dev qttools5-dev qtscript5-dev qtdeclarative5-
 
 # Install librealsense into home directory
 cd $HOME
