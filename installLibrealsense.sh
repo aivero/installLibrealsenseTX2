@@ -15,7 +15,7 @@ cd $HOME
 git clone https://github.com/IntelRealSense/librealsense.git
 cd librealsense
 # Checkout version 1.12.1 of librealsense, last tested version
-git checkout # Patch the uvcvideo internal module fix
+git checkout development # Patch the uvcvideo internal module fix
 patch -p1 -i $INSTALL_DIR/patches/uvc-v4l2.patch
 # Copy over the udev rules so that camera can be run from user space
 sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
